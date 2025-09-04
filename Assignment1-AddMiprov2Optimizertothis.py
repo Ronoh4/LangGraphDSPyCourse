@@ -1,3 +1,6 @@
+# This flow uses a basic predict dspy module to generate the query opts
+# Basic modules are suboptimal. Here, use an advanced MiproV2 optimizer as part of learning dspy
+
 from typing import Literal
 from langchain_core.tools import tool
 from langgraph.checkpoint.memory import InMemorySaver
